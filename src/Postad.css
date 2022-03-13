@@ -1,0 +1,431 @@
+.modal {
+  
+    
+    position: absolute;
+    top: -8%;
+    left: 16%;
+    transform: translate(50%,50%);
+    width: 650px;
+    background-color: white;
+    border-radius: 10px;
+    height: 550px;
+    display: flex;
+    /* justify-content: space-between; */
+  
+    border-radius: 9px;
+    display: flex;
+    overflow: hidden;
+   
+   
+    
+   
+}
+
+.modalcard{
+  /* width: 100vw;
+  height: 100vh; */
+  
+  background-color: rgba(0,0,0,.6);
+  display: flex;
+  width: 100%;
+  height: 100%;
+ 
+  position: fixed;
+  z-index: 10000;
+  opacity: 1;
+}
+.buttonlast1{
+  display: flex;
+flex-direction: row;
+
+}
+.gpic{
+display: flex;
+flex-direction: row;
+
+margin-block: -12px;
+}
+p.gpic{
+
+}
+.buttonlast2{
+  display: flex;
+  flex-direction: row;
+
+}
+.fpic{
+  display: flex;
+flex-direction: row;
+margin-block: -12px;
+
+}
+
+  .modalcontainer {
+   
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+}
+.custom2{
+ 
+    height: 50px;
+    background-color: #fff;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ .custom2 input{
+     outline:none;
+     border-style: none;
+     margin: 5px 5px 0 0;
+     width: 95%;
+     font-size: 15px;
+     margin-inline-start: 42px;
+     font-family: inherit;
+     line-height: inherit;
+     border: none;
+     border-bottom: 2px solid #cdcdcd;
+ }
+ .custom2 p{
+    outline:none;
+    border-style: none;
+    margin: 5px 5px 0 0;
+    width: 95%;
+    font-size: 15px;
+    padding-inline-start: 20px;
+    font-family: inherit;
+    line-height: inherit;
+ 
+ }
+ .modalleft{
+    height:100%;
+    width:65%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .login{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 95%;
+     align-items: center;
+     text-align: center;
+     
+     margin:100px 15px 25px 28px ;
+     
+ }
+ div.login1{
+     margin: 0 0 8px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex: 1 1;
+     cursor: pointer;
+     color: #012b72;
+    font-size: 16px;
+    border-bottom: 2px solid #012b72;
+ }
+ div.regist{
+     margin: 0 0 8px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+     flex: 1 1;
+     cursor: pointer;
+     color: #012b72;
+    font-size: 16px;
+   
+     
+ }
+ .login h3{
+     color: #012b72;
+    font-size:16px;
+ }
+ h3.regist{
+    color: #012b72;
+   font-size: 16px;
+}
+.forgetpwd{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 85%;
+margin-inline: 28px;
+margin-block-start: 10px;
+}
+.showpwd{
+
+}
+.showpwd p{
+    color: black;
+    font-size: 18px;
+    font-weight: lighter;
+
+}
+.forgetpwd{
+
+}
+.forgetpwd p{
+    color: black;
+    font-size: 18px;
+
+}
+.buttonlast {
+    background-color: #012b72;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 0px 25px;
+   
+    border-radius: 3px;
+    height: 50px;
+    width: 86%;
+    line-height: 0;
+    border-radius: 5px;
+  }
+  .buttonlast1 {
+    background-color:white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 25px;
+    color: black;
+    border-radius: 3px;
+    height: 50px;
+    width: 86%;
+    line-height: 0;
+    /* border: 1px solid #BFBFBF; */
+    /* box-shadow: 5px 5px 5px #aaaaaa; */
+    border-radius: 5px;
+    border: .5px solid #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgb(1 43 114 / 5%), 0 5px 5px 0 rgb(1 43 114 / 5%);
+  }
+  .buttonlast2 {
+    background-color:white;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 25px;
+   
+    border-radius: 3px;
+    height: 50px;
+    width: 86%;
+    line-height: 0;
+    color: black;
+    border: .5px solid #f8f8f8;
+    box-shadow: 0 4px 8px 0 rgb(1 43 114 / 5%), 0 5px 5px 0 rgb(1 43 114 / 5%);
+   
+   
+    border-radius: 5px;
+
+  }
+  .buttonpara 
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+
+ .modalright{
+    /* height:550px;
+    width:227.5px ; */
+    background-color: #012B72;
+    height: 100%;
+    width: 35%;
+ }
+ .rightxentice{
+      width: 35%; 
+     display: flex;
+     flex-direction: row; 
+     /* justify-content: space-between; */
+     flex: 1 1;
+     margin-inline-start: 20px;
+
+
+ }
+ .rightx{ 
+      display: flex;
+     flex-direction: row;
+ }
+.rightx img{
+    color: white;
+    
+   
+    font-size: 40px;
+    font-weight: lighter;
+    width: 140px;
+    height: 60px;
+
+}
+ 
+ .btncloseright{  
+     display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    margin: 24px 0 0 26px;
+   
+    
+
+ }
+ .data{
+color: white;
+padding: 14px;
+ }
+ .data h5{
+     font-size: 14px;
+ }
+ .uldata{
+     color: white;
+     padding: 10px;
+     font-size: 12px;
+
+ }
+ .container10 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container10 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 18px;
+    width: 18px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  span.checkmark{
+    margin: 6px 0 0 0;
+
+  }
+  /* .container10:hover input ~ .checkmark {
+    background-color: #ccc;
+  } */
+  .container10 input:checked ~ .checkmark {
+    background-color: #012b72;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container10 input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container10 .checkmark:after {
+    left: 5px;
+    top: -1px;
+    width: 6px;
+    height: 14px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(43deg);
+  }
+
+  @media screen and (max-width: 1440px) {
+    .modal{
+        
+      top: -38%;
+      left: 5%;
+    }
+ } 
+ @media screen and (max-width: 1024px) {
+  .modal{
+      
+      top: -38%;
+  left: 0%;
+  margin-inline-start: -164px;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .modal{
+      
+      top: -35%;
+  left: -10%;
+  
+  }
+}
+@media screen and (max-width: 425px) {
+  .modalright{
+    display: none;
+  }
+  .modal{
+    left: -1%;
+    top: -24%;
+  }
+  .modalleft{
+    width: 102%;
+    height: 100%;
+  }
+} 
+@media screen and (max-width: 375px) {
+  .modalright{
+    display: none;
+      
+      
+  }
+  .modalleft{
+    width: 102%;
+    height: 100%;
+  }
+  .modal{
+    left: 10px;
+  }
+} 
+@media screen and (max-width: 320px) {
+  .modalright{
+    display: none;
+      
+      
+  }
+  .modalleft{
+    width: 98%;
+    height: 100%;
+  }
+  .modal{
+    left: 42px;
+    top: -154px;
+  }
+  .forgetpwd p {
+    color: black;
+    font-size: 15px;
+}
+}
+
+
+ 

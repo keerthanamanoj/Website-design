@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    max-width: 100vw;
+    padding: 0;
+}
+
+
+
+
+.IconContainer{
+    width:100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-block: 40px;
+
+ }
+ .Iconbox{
+     width:100%;
+     height: 100px;
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     overflow: scroll;
+     /* overflow: hidden; */
+    
+ }
+ .Iconbox::-webkit-scrollbar {
+    display: none;
+}
+ .Iconcontent{
+     display: flex;
+     flex-direction: column;
+     width: auto;
+     height: 80px;
+     justify-content: center; 
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    -webkit-flex-direction: column;
+ }
+ 
+ .colorsicon{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 32px;
+    /* min-width: 120px; */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+
+}
+.colorsicon p{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+@media screen and (max-width: 425px) {
+    .IconContainer {
+        margin-top: 480px;
+    
+    }
+    .content{
+
+    }
+ } 
+ @media screen and (max-width: 768px) {
+    .colorsicon p{
+        font-size: 9px;
+        font-weight: 350;
+
+    }
+    .content{
+
+    }
+ } 
+

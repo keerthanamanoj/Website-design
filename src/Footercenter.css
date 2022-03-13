@@ -1,0 +1,66 @@
+.f-header{
+    /* margin-top: 100px; */
+    background-color: #012B72;
+  /* position: fixed; */
+    height: auto;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+}
+.Footer2{
+    /* padding: 15px; */
+    background-color: #012B72;
+    height: 130px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding: 40px 0px 0px 50px;
+    justify-content: space-between;
+
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+}
+h2 .dis1{
+    padding:0px 0px 10px 0px;
+}
+.dis1{
+flex-direction: row;
+display: flex;
+color: white;
+flex-direction: row;
+}
+.dis2{
+    flex-direction: row;
+    display: flex;
+    color: white;
+    flex-direction: row;
+}
+.Footer2 .dis .dis2{
+text-align: justify;
+font-size: 14px;
+display: block;
+justify-content: flex-start;
+
+}
+.footimage{
+    padding: 0px 50px 0px 0px;
+}
+.footimage img{
+    height: 45px;
+    width: 150px;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+}
+.Footer2{
+   
+}
+
+@media screen and (max-width: 1024px) {
+    .f-header{
+        display: none;
+    }
+ } 

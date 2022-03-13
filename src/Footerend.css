@@ -1,0 +1,147 @@
+.f-end{
+    /* margin-top: 100px; */
+    background-color: #012B72;
+  /* position: fixed; */
+    height: auto;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* hr{
+border-top-style: "2px solid #fff ";
+ margin-left: 20px; 
+ margin-right: 20px; 
+} */
+.hr{
+ /* width: 100%;
+  height: 1px;
+  align-self: center;
+  padding-right: 60px;
+  padding-left: 60px; */
+
+}
+
+
+.Footer3{
+    /* padding: 15px; */
+    background-color: #012B72;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    padding: 15px 0px 0px 40px;
+
+}
+.endpart{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 0px 0px 20px 0px;
+width: 100%;
+
+
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+}
+.third{
+display: flex;
+flex-direction: row;
+padding: 0px 50px 0px 0px;
+}
+.copyright p {
+color: white;
+font-size: 15px;
+display: flex;
+margin: 10px;
+
+}
+.third p{
+color: white;
+font-size: 15px;
+display: flex;
+margin: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  
+} 
+@media screen and (max-width: 768px) {
+  /* .copyright{
+    margin-inline: -48px;
+  } */
+  /* .third{
+    margin-inline: -48px;
+
+  } */
+  .endpart{
+   
+      display: flex;
+      flex-direction: column;
+          
+  }
+  .Footer3{
+    height: 100px;
+  }
+}
+@media screen and (max-width: 425px) {
+  
+    .copyright{
+
+         margin-inline: 30px;
+      
+    /* justify-content: center;
+    align-items: center;
+    margin-block-start: -18px;  */
+
+    }
+    .Footer3{
+    
+     /* padding: 6px 6px 6px 6px;
+     justify-content: center;
+     align-items: center; */
+    }
+  
+    .copyright p{
+
+    }
+    .third p{
+      /* margin: 8px;
+      font-size: 10px;
+      margin-top: 36px; */
+
+    }
+
+}
+@media screen and (max-width: 375px) {
+  
+    .third{
+      margin-inline: -20px;
+    }
+    .copyright {
+      margin-inline: 0px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+  
+    .third{
+      margin-inline: -38px;
+    }
+    .copyright {
+      margin:-10px;
+
+  }
+  .copyright p{
+    margin-inline: -18px;
+  }
+  .third p{
+    font-size: 10px;
+  }
+}
+
+
+

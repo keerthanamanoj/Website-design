@@ -1,0 +1,130 @@
+.content{
+    /* margin-top: 200px; */
+    margin-bottom: 0px;
+}
+ .contentpic{
+    display: flex;
+    position: relative;
+
+ }
+.box{
+   
+     
+}
+.card {
+  
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width:50px; */
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    transform: translate(50%,50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    height: 425px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline-start: -100px;
+    /* position: fixed; */
+
+  }
+  
+  
+/* .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+  
+ 
+.container {
+    padding: 38px;
+    height: 425px;
+    width: 400px;
+    margin-block: 10px;
+}
+.container h2 b{
+    font-size: 33px;
+} 
+.container p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+ .custom-select{
+ 
+    width: 100%;
+    margin-block: 6px 6px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 2;
+ }
+ .button {
+    background-color: #012b72;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0 0;
+   
+    border-radius: 3px;
+    height: 50px;
+    width: 100%;
+    line-height: 0;
+  }
+section{
+    
+}
+
+
+
+
+
+ @media screen and (max-width: 1440px) {
+     .card {
+        top: 5%;
+        left: 0%;
+        transform: translate(50%,18%);
+   
+   }
+ }
+ @media screen and (max-width: 1024px) {
+    .card {
+        margin-block: -45px;
+        top: unset;
+   
+    }
+    .content{
+
+    }
+ } 
+ @media screen and (max-width: 768px) {
+    .card {
+        
+   
+    }
+    .box img{
+    width: auto;
+    height: 70vw;
+    }
+ } 
+
+ @media screen and (max-width: 425px) {
+    .box img{
+        display: none;
+    }
+    .card{
+        margin-inline: -194px;
+    }
+    
+ } 
+
+ @media screen and (max-width: 375px) {
+    .container{
+        margin-block: -22px;
+    }
+ } 
